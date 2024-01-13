@@ -1,0 +1,266 @@
+/* Developed By Michelle Miranda (22112023) */
+body {
+    margin: 0px;
+    font-family: Montserrat;
+}
+
+/* Navbar */
+
+.nav-bar {
+    background-color: #6a4b43;
+    margin: 0px;
+
+}
+
+.nav {
+    display: flex;
+    margin: 0px;
+}
+
+.nav-items {
+    list-style: none;
+    padding: 2.5vh;
+}
+
+a {
+    font-size: 1.2em;
+    color: #f3ebdb;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+
+
+/* Cover  */
+
+.cover {
+    background-image: url("images/bg-img5.avif");
+    background-size: cover;
+    height: 600px;
+
+}
+
+.brand {
+    text-align: center;
+    font-size: 6em;
+    padding-top: 30vh;
+    margin: 0px;
+    color: #5b413a;
+}
+
+.brand-desc {
+    text-align: center;
+    padding-left: 65vh;
+    padding-right: 65vh;
+    margin-top: 10vh;
+    font-size: 1.2em;
+    color: #6a4b43;
+}
+
+/* Products Grid */
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(350px, 1fr));
+    padding: 40px 10px 40px 10px;
+    background-color: #fdf7ec;
+    gap: 10px;
+
+}
+
+
+
+.products {
+    text-align: center;
+    height: 70vh;
+    background-size: cover;
+    border-radius: 5px;
+
+
+}
+
+.serum {
+    background-image: url("images/serum.jpg");
+
+
+}
+
+.moisturizer {
+    background-image: url("images/moisturizer3.webp");
+    background-position: center;
+
+
+}
+
+.sunscreen {
+    background-image: url("images/sunscreen.jpg");
+    background-position: center;
+
+
+}
+
+
+.card {
+    margin: 10vh;
+    color: #6a4b43;
+
+
+}
+
+.title {
+    background-color: #EBD9B4;
+    background-image: radial-gradient(#EBD9B4, #ebd5aa);
+    border-radius: 5px;
+    text-align: center;
+    padding: 3vh;
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    line-height: 2px;
+    font-weight: bold;
+}
+
+.product-info {
+    margin: 0px;
+    background-color: #F9EFDB;
+    background-image: radial-gradient(#F9EFDB, #ffedce);
+    padding: 5vh;
+    text-align: justify;
+    font-size: 1.05em;
+    letter-spacing: 1px;
+    line-height: 150%;
+
+}
+
+
+/* Footer */
+
+footer {
+    text-align: center;
+    background-color: #6a4b43;
+    color: #f3ebdb;
+    padding: 50px;
+    font-size: 1.5em;
+    letter-spacing: 2px;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 1500px) {
+    .brand {
+        font-size: 4em;
+        padding-top: 15vh;
+    }
+
+    .brand-desc {
+        font-size: 1.2em;
+        padding-left: 35vh;
+        padding-right: 35vh;
+        margin-top: 15vh;
+    }
+
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .card {
+        margin: 5vh;
+    }
+
+    .desc {
+        height: 35vh;
+        margin: 2vh;
+    }
+
+    .products {
+        background-position: center;
+    }
+
+    .brand {
+        font-size: 3em;
+        padding-top: 25vh;
+    }
+
+    .brand-desc {
+        font-size: 1em;
+        padding-left: 25vh;
+        padding-right: 25vh;
+        margin-top: 5vh;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 768px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (max-width: 820px) {
+    .nav {
+        align-items: center;
+        font-size: 0.7em;
+    }
+
+    .nav-items {
+        padding: 2vh;
+    }
+
+    .cover {
+        height: 400px;
+    }
+
+    .card {
+        margin: 1vh;
+    }
+
+    .title {
+        font-size: 1.2em;
+    }
+
+    .product-info {
+        font-size: 0.9em;
+    }
+
+    .serum {
+        height: 40vh;
+        background-position: center;
+    }
+
+
+
+    .products {
+        height: 50vh;
+    }
+
+    .brand {
+        font-size: 3em;
+        padding-top: 17vh;
+    }
+
+    .brand-desc {
+        font-size: 1em;
+        padding-left: 5vh;
+        padding-right: 5vh;
+        margin-top: 5vh;
+    }
+
+
+
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+    background-color: #6a4b43;
+    color: #f3ebdb;
+    padding: 50px;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+}
